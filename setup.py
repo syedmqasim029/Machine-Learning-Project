@@ -23,4 +23,4 @@ setup(
     install_requires=get_requirements('requirements.txt')
 
 
-)
+  )
