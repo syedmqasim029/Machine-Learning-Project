@@ -1,3 +1,9 @@
+import os
+import sys
+
+# Ensure project root is in sys.path for AWS deployment
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
 from flask import Flask, request, render_template
 import numpy as np
 import pandas as pd
